@@ -20,8 +20,13 @@
         </nav>
 
         <script>
-            alert("Bem Vindo!")
-        </script>
+        function minhaFuncao(numero)  {
+            const divs = document.querySelectorAll('.info-trofeu'):
+            divs.forEach(div, index) => {
+                 div.style.display = (index === numero - 1) ? 'block': 'none';
+            });
+        }
+       </script>
     </header>
 
 
