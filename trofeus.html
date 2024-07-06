@@ -13,7 +13,7 @@
         <h1>Mundodofcporto</h1>
         <nav>
             <ul>
-                <img src="/Mundodofcporto/assets/small_logo.svg" alt="">
+                <img src="/assets/small_logo.svg" alt="">
                 <li id="menu-home"><a href="index.html">HOME</a></li>
                 <li id="menu-trofeus"><a href="trofeus.html">TROFEUS</a></li>
             </ul>
@@ -21,8 +21,8 @@
 
         <script>
         function minhaFuncao(numero)  {
-            const divs = document.querySelectorAll('.info-trofeu'):
-            divs.forEach(div, index) => {
+            const divs = document.querySelectorAll('.info-trofeu');
+            divs.forEach((div, index) => {
                  div.style.display = (index === numero - 1) ? 'block': 'none';
             });
         }
