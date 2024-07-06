@@ -157,7 +157,7 @@ header {
 
 
 footer {
-    position: fixed;
+    position: relative;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
@@ -191,6 +191,9 @@ footer {
     .troféus li{
         width: 60px;
         margin: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         
     }
     header{
