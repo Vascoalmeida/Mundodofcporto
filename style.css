@@ -175,6 +175,7 @@ footer {
 .info-trofeu { 
     margin: 20px;
     display: none;
+    padding: 0 2rem;
 }
 .info-trofeu h2 {
     color: #ffffff;
@@ -211,6 +212,9 @@ footer {
     }
     header{
         padding: 15px 36px;
+    }
+    .info-trofeu{
+        padding: 0;
     }
 }
 
