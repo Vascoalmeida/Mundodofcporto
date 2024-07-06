@@ -190,5 +190,12 @@ footer {
     }
     .troféus li{
         width: 60px;
+        margin: 5px;
+        
+    }
+    header{
+        padding: 15px 36px;
     }
 }
+
+
