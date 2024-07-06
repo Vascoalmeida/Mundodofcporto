@@ -69,7 +69,7 @@ nav:hover ul img {
 nav {
     position: absolute;
     background-color: #000000;
-    height: 100%;
+    height: 100vh ;
     width: 30px;
     left: 0;
     top: 0;
@@ -90,7 +90,7 @@ nav {
 nav:hover {
     position: absolute;
     background-color: #f40000;
-    height: 100%;
+    height: 100vh;
     width: 300px;
     left: 0;
     top: 0;
