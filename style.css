@@ -125,6 +125,11 @@ header {
 #pai {
     margin: 0px;
     padding: 30px;
+    color: #fafafa;
+}
+
+#pai h1{
+    margin-bottom: 10px;
 }
 
 .troféus {
@@ -162,7 +167,7 @@ footer {
     display: flex;
     justify-content: center;
     bottom: 0;
-    width: 100%;
+    width: 100wv;
     padding: 40px;
     z-index: 1;
 }
@@ -178,6 +183,14 @@ footer {
     color: #ffffff;
     text-align: justify;
     margin-top: 15px;
+}
+
+.imagem_principal{
+    margin: 20px 0px;
+}
+
+.justificado{
+    text-align: justify;
 }
 
 @media screen and (max-width: 1024px) {
